@@ -6,90 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfect Pizza</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid/simple-grid.css">
+    <link rel="stylesheet" href="grid/simple-grid.min.css">
+    <link rel="stylesheet" href="grid/simple-grid.scss">
     <link rel="shortcut icon" href="pizza1.png" type="image/png">
 </head>
 
 <body>
+    <div class="container">
 
-    <h1>Perfect Pizza</h1>
+        <div class="row">
+            <div class="col-12 center">
+                <h1>Perfect Pizza</h1>
+            </div>
+        </div>
 
-    <div class="pizzas">
-        <div class="contain small_pizza">
 
-            <h2>Small Pizza</h2>
+        <div class="row pizzas">
 
-            <div class="pizza_img">
-                <img src="pizza1.png" width="100">
+            <div class="col-4 contain small_pizza">
+
+                <h2 class="pizza_size">Small Pizza</h2>
+
+                <div class="pizza_img">
+                    <img src="pizza1.png" width="100">
+                </div>
+
+                <h3 class="pizza_price">R39.00</h3>
+
+                <div class="pizza_top">
+                    Small Pizza with 3 toppings max.<br>
+                    1 meat topping.<br>
+                    3 or less other toppings.
+                </div>
+
             </div>
 
-            <h3>R39.00</h3>
 
-            <div class="pizza_top">
-                Small Pizza with 3 toppings max.<br>
-                1 meat topping.<br>
-                3 or less other toppings.
+            <div class="col-4 contain medium_pizza">
+
+                <h2 class="pizza_size">Medium Pizza</h2>
+
+                <div class="pizza_img">
+                    <img src="pizza.png" width="125">
+                </div>
+
+                <h3 class="pizza_price">R79.00</h3>
+
+                <div class="pizza_top">
+                    Medium Pizza with 3 toppings max.<br>
+                    2 or less meat toppings.<br>
+                    3 or less other toppings.
+                </div>
+
+            </div>
+
+            <div class="col-4 contain large_pizza">
+
+                <h2 class="pizza_size">Large Pizza</h2>
+
+                <div class="pizza_img">
+                    <img src="pizza2.png" width="150">
+                </div>
+
+                <h3 class="pizza_price">R99.00</h3>
+
+                <div class="pizza_top">
+                    Medium Pizza with 3 toppings max.<br>
+                    3 or less meat toppings.<br>
+                    3 or less other toppings.
+                </div>
+
             </div>
 
         </div>
 
-        <div class="contain medium_pizza">
+        <div class="row col-12 center contain contact_us">
+            
+                <h2>Contact Details</h2>
 
-            <h2>Medium Pizza</h2>
+                <div class="col-6 left">
+                    <p id="contact">
+                        Contact us at: (021)-541-1000 <br>
+                        info@perfectpizza.co.za <br>
+                        Twitter/Facebook/Instagram <br>
+                        @perfectpizza
+                    </p>
+                </div>
 
-            <div class="pizza_img">
-                <img src="pizza.png" width="125">
-            </div>
-
-            <h3>R79.00</h3>
-
-            <div class="pizza_top">
-                Medium Pizza with 3 toppings max.<br>
-                2 or less meat toppings.<br>
-                3 or less other toppings.
-            </div>
-
-        </div>
-
-        <div class="contain large_pizza">
-
-            <h2>Large Pizza</h2>
-
-            <div class="pizza_img">
-                <img src="pizza2.png" width="150">
-            </div>
-
-            <h3>R99.00</h3>
-
-            <div class="pizza_top">
-                Medium Pizza with 3 toppings max.<br>
-                3 or less meat toppings.<br>
-                3 or less other toppings.
-            </div>
+                <div class="col-6 right">
+                    <p id="location">
+                        Pizza Plaza <br>
+                        Dough Road <br>
+                        Base Town
+                    </p>
+                </div>
 
         </div>
-    </div>
 
-    <div class="contain contact_us">
+        <div class="col-12 center row footer">
+            Sudarshan R. Vittal | Pizza Pamphlet Simple-Grid - Perfect Pizza | ProjectCodeX | 2021
+        </div>
 
-        <h2>Contact Details</h2>
-
-        <p id="contact">
-            Contact us at: (021)-541-1000 <br>
-            info@perfectpizza.co.za <br>
-            Twitter/Facebook/Instagram <br>
-            @perfectpizza
-        </p>
-
-        <p id="location">
-            Pizza Plaza <br>
-            Dough Road <br>
-            Base Town
-        </p>
-    </div>
-
-    <div class="footer">
-        Sudarshan R. Vittal | Pizza Pamphlet - Perfect Pizza | ProjectCodeX | 2021
     </div>
 
 </body>
