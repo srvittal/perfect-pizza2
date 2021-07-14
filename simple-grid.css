@@ -261,6 +261,7 @@ p {
 }
 
 .small_pizza {
+  height: 400px;
   background-color:#6a4c93;
 }
 
@@ -273,6 +274,7 @@ p {
 }
 
 .medium_pizza {
+  height: 400px;
   background-color:#ff595e;
 }
 
@@ -285,6 +287,7 @@ p {
 }
 
 .large_pizza {
+  height: 400px;
   background-color:#1982c4;
 }
 
@@ -307,7 +310,6 @@ p {
 }
 
 .pizza_top{
-  bottom: 0;
   padding-top: 0;
   padding-left: 1em;
   padding-right: 1em;
